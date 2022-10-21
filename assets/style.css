@@ -1,0 +1,73 @@
+header {
+  height: 150px;
+}
+
+main {
+  background-image: linear-gradient(to right top, #22162B, #451F55, #724E91, #E54F6D, #F8C630);
+  height: calc(100vh - 240px);
+  display: flex;
+}
+
+footer {
+  height: 90px;
+}
+
+/* HEADER */
+.container-fluid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  width: 300px;
+  height: 90px;
+}
+
+nav {
+  width: 17%;
+  display: flex;
+}
+
+p {
+  color: black;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.form-select {
+  width: 30%;
+  margin-right: 40px;
+}
+/* MAIN */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ap-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 1100px;
+  height: 1100px;
+}
+
+.square{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+}
+
+.square.odd {
+  background-color:  red;
+}
+.square.even{
+  background-color: green;
+}
